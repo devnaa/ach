@@ -33,7 +33,7 @@ github.com/prometheus/client_model/go
 github.com/prometheus/common/expfmt
 github.com/prometheus/common/model
 github.com/prometheus/common/internal/bitbucket.org/ww/goautoneg
-# github.com/prometheus/procfs v0.0.0-20190412120340-e22ddced7142
+# github.com/prometheus/procfs v0.0.0-20190425084625-87a4384529e0
 github.com/prometheus/procfs
 # github.com/rickar/cal v1.0.1
 github.com/rickar/cal
