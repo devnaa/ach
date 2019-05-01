@@ -204,11 +204,10 @@ func (fh *FileHeader) Validate() error {
 	}
 
 	// todo: handle test cases for before date
-	/*
-		if fh.fileCreationDate.Before(time.Now()) {
-			return false, ErrFileCreationDate
-		}
-	*/
+	if fh.fileCreationDate.Before(time.Now()) {
+		return false, ErrFileCreationDate
+	}
+	
 	return nil
 }
 
